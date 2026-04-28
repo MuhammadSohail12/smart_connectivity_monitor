@@ -27,7 +27,7 @@ Most packages just check if a network interface is active. This one **verifies a
 
 ```yaml
 dependencies:
-  smart_connectivity_monitor: ^1.0.0
+  smart_connectivity_monitor: ^2.0.0
 ```
 
 ### Android permissions
