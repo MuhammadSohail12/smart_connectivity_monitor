@@ -1,0 +1,31 @@
+name: smart_connectivity_monitor
+description: Production-grade Flutter package for real-time internet connectivity monitoring with caching, quality detection, and built-in UI widgets.
+version: 1.0.0
+homepage: https://github.com/YOUR_USERNAME/smart_connectivity_monitor
+repository: https://github.com/YOUR_USERNAME/smart_connectivity_monitor
+issue_tracker: https://github.com/YOUR_USERNAME/smart_connectivity_monitor/issues
+
+topics:
+  - connectivity
+  - network
+  - internet
+  - monitoring
+  - flutter
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  connectivity_plus: ^6.0.3
+  http: ^1.2.1
+  rxdart: ^0.27.7
+  shared_preferences: ^2.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.3
+  flutter_lints: ^4.0.0
